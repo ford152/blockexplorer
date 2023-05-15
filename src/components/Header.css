@@ -1,0 +1,19 @@
+.main {
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    flex: 33.33%;
+}
+
+.columnR {
+    flex: 33.33%;
+    text-align: right;
+}

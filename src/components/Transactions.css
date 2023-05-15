@@ -1,0 +1,49 @@
+.main {
+    padding-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-body {
+    display: grid;
+    grid-template-columns: max-content max-content 1fr;
+    /* row-gap: 0.1rem; */
+    /* column-gap: 0.5rem; */
+    height: 500px;
+    margin: 0.5rem;
+    overflow: auto;
+}
+
+.grid-header {
+    display: contents;
+    
+}
+.grid-content {
+    display: contents;
+}
+
+.grid-header label {
+    position: sticky;
+    top:0%;
+    font-weight: bold;
+    background-color: lightgray;
+    border-bottom: solid 1px black;
+}
+
+.col1 {
+    border: 1px solid black;
+    flex: 50%;
+}
+
+.col2 {
+    border: 1px solid black;
+    flex: 20%;
+}
+
+.col3 {
+    border: 1px solid black;
+    flex: 30%;
+}
